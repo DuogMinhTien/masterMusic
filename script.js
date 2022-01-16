@@ -8,6 +8,8 @@ var Music = [
 			 ["Bánh Mì Không", "music/BanhMiKhong.mp4"],
 			 ["Người Lạ Thoáng Qua", "music/NguoiLaThoangQua.mp4"],
 			 ["Đừng Vì Cô Đơn Quá", "music/DungViCoDonQua.mp4"],
+			 ["Sai Người Sai Thời Điểm", "music/SaiNguoiSaiThoiDiem.mp4"],
+			 ["Vì Ai Vì Anh", "music/ViAiViAnh.mp4"],
 			]
 var myAudio = document.getElementById("musicaudio");
 
