@@ -27,6 +27,11 @@ if (Music.length < 50 && $(window).width() > 500) {
 		);
 	}
 }
+else {
+	$("#DivMusic").append (
+		'<div class="cardMusic2"></div>'
+	);
+}
 
 };
 
