@@ -20,7 +20,7 @@ for (var i in Music) {
 		'</div>'
 	);
 }
-if (Music.length < 50 ) {
+if (Music.length < 50 && $(window).width() > 500) {
 	for (var i=0; i<50; i++) {
 		$("#DivMusic").append (
 			'<div class="cardMusic2"></div>'
