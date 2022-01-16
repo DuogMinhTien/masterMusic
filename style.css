@@ -7,6 +7,13 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 	overflow: hidden;
+	-moz-user-select: none !important;
+	-webkit-touch-callout: none!important;
+	-webkit-user-select: none!important;
+	-khtml-user-select: none!important;
+	-moz-user-select: none!important;
+	-ms-user-select: none!important;
+	user-select: none!important;
 }
 
 .Gradient-Style {
@@ -172,6 +179,12 @@ audio::-webkit-media-controls-panel {
 @media only screen and (min-width: 500px) and (max-width: 700px) {
 	.grid-container {
 	  grid-template-columns: auto auto;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.grid-container {
+	  grid-template-columns: auto auto auto auto auto auto;
 	}
 }
 
